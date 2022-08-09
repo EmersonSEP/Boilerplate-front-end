@@ -1,7 +1,12 @@
+import Counter from "../components/Counter";
+
 function App() {
   return (
     <>
-      <h1>Oi Mundo!</h1>
+      <div className="container w-full h-min-screen flex items-center justify-center">
+      <Counter />
+
+      </div>
     </>
   );
 }
